@@ -1,0 +1,42 @@
+@charset "utf-8";
+.header{
+	height:110px;
+	background:#fff;
+	width: 835px;
+	padding-left: 365px;
+	margin: 0 auto;
+	text-align: left;
+	background: url('../img/logo.jpg') no-repeat left center;
+}
+.header a{
+	line-height: 110px;
+    padding: 0px 10px;
+    margin-right: 20px;
+    font-size: 16px;
+    color: #666;
+    text-decoration: none;
+}
+.header a:hover{
+	color: orange;
+}
+
+.header .btn{
+	width: 120px;
+    height: 34px;
+    background: url(../img/header_btn_bj.png) no-repeat center;
+    float: right;
+    border: none;
+    padding: 0px;
+    margin-top: 38px;
+    text-align: center;
+    color: #fff
+}
+.header .btn a{
+	line-height: 34px;
+    text-align: center;
+    padding: 0px;
+    color: white;
+    margin: 0px;
+    font-size: 14px;
+    text-decoration: none;
+}

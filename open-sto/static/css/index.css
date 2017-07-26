@@ -1,0 +1,69 @@
+@charset "utf-8";
+.box{
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 65px;
+}
+.box dl{
+	float: left;
+	padding: 20px 0px;
+	width: 300px;
+	cursor: pointer;
+}
+.box dl dt{
+	height: 75px;
+	text-align: center;
+}
+.box dl dt img{
+	display: block;
+	margin: 0 auto;
+	height: 100%
+}
+.box dl dd{
+	clear: both;
+	padding: 0px 40px;
+}
+.box dl dd p{
+	font-size: 18px;
+	color: #333;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+.box dl dd abbr{
+	line-height: 18px;
+	font-size: 14px;
+	color: #999;
+}
+.box dl:hover{
+	background: #eee
+}
+
+.link_box{
+	border: 1px solid #eeeeee;
+    width: 1178px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 20px;
+    padding-top: 30px;
+    height: 150px;
+}
+.link_box dl{
+	width: 140px;
+    height: 45px;
+    float: left;
+    overflow: hidden;
+    margin-right: 29px;
+    margin-bottom: 30px;
+}
+.link_box dl:nth-child(7n){
+	margin-right: 0px;
+}
+.link_box img{
+	display: block;
+    margin: 0 auto;
+    max-width: 140px;
+    max-height: 45px;
+}
